@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Button = styled.button`
   color: #373737;
@@ -10,6 +10,7 @@ export const Button = styled.button`
   text-align: center;
   align-content: center;
   align-items: center;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
