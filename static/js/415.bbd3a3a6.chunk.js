@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktest_tweets=self.webpackChunktest_tweets||[]).push([[415],{5415:function(e,t,n){n.r(t),n.d(t,{default:function(){return c}});var s=n(689),u=n(3329);function c(){return(0,u.jsx)(s.W2,{children:(0,u.jsx)("h1",{children:"Welcome to the tweet home page. I wish you a good time."})})}}}]);
-//# sourceMappingURL=415.bbd3a3a6.chunk.js.map
