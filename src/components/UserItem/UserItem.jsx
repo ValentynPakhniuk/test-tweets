@@ -1,4 +1,3 @@
-// import { useRef } from 'react';
 import { Button } from '../Button/Button.styled';
 import {
   BoxLineImage,
@@ -20,7 +19,6 @@ import PropTypes from 'prop-types';
 const UserItem = ({ user, followedUsers, handleClick }) => {
   const isLoading = useSelector(selectIsLoading);
   const formatter = new Intl.NumberFormat('en-US');
-  // const backLinkLocationRef = useRef(location.state?.from ?? "/");
 
   return (
     <Item>

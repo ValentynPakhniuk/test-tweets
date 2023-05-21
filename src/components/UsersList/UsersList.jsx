@@ -20,7 +20,6 @@ export const UsersList = () => {
   const dispatch = useDispatch();
   const users = useSelector(selectUsers);
   const [followedUsers, setFollowedUsers] = useState(initialFollowedUsers);
-  // const backLinkLocationRef = useRef(location.state?.from ?? '/');
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
