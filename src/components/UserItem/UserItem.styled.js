@@ -1,39 +1,23 @@
 import styled from 'styled-components';
-
+const imjUrl = new URL('../../images/cardBackgroundImage.png', import.meta.url)
+  .href;
 export const Item = styled.li`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 380px;
   height: 460px;
-  background: linear-gradient(
-    114.99deg,
-    #471ca9 -0.99%,
-    #5736a3 54.28%,
-    #4b2a99 78.99%
-  );
-  background-image: url('../../images/cardBackgroundImage.png'),
+  background-image: url(${imjUrl}),
     linear-gradient(114.99deg, #471ca9 -0.99%, #5736a3 54.28%, #4b2a99 78.99%);
   background-repeat: no-repeat;
-  /* background-position: 28px 36px, 20px 20px, 0 0; */
+  background-position: 35px 30px, 0;
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
   overflow: hidden;
   z-index: 0;
-  /* & article { */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* position: relative; */
-  /* overflow: hidden; */
-  /* z-index: 0; */
-  /* } */
+  & article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
-
-// export const CardBackgroundImage = styled.img`
-//   margin-top: 28px;
-//   margin-bottom: 18px;
-// `;
 
 export const BoxLogo = styled.div`
   position: relative;
